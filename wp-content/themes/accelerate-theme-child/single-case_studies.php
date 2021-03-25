@@ -27,30 +27,31 @@ get_header(); ?>
 	$size = "full"; ?>
 
 <article class="case-study">
-	<aside class="case-study-sidebar">
-		<h2><?php the_title(); ?></h2>
-		<h5><?php echo $services; ?></h5>
-		<h6>Client: <?php echo $client; ?></h6>
+	<div class="site-content">
+		<aside class="case-study-sidebar">
+			<h2><?php the_title(); ?></h2>
+			<h5><?php echo $services; ?></h5>
+			<h6>Client: <?php echo $client; ?></h6>
 
-		<?php the_content(); ?>
+			<?php the_content(); ?>
 
-		<p><a href="<?php echo $link; ?>">Site Link</a></p>
-	</aside>
+			<p><a href="<?php echo $link; ?>">Site Link</a></p>
+		</aside>
 
-	<div class="case-study-images">
-		<?php if($image_1) {
-			echo wp_get_attachment_image( $image_1, $size );
-		} ?>
-		<?php if($image_2) {
-			echo wp_get_attachment_image( $image_2, $size );
-		} ?>
-		<?php if($image_3) {
-			echo wp_get_attachment_image( $image_3, $size );
-		} ?>
+		<div class="case-study-images">
+			<?php if($image_1) {
+				echo wp_get_attachment_image( $image_1, $size );
+			} ?>
+			<?php if($image_2) {
+				echo wp_get_attachment_image( $image_2, $size );
+			} ?>
+			<?php if($image_3) {
+				echo wp_get_attachment_image( $image_3, $size );
+			} ?>
 
 
+		</div>
 	</div>
-
 </article>
 
 

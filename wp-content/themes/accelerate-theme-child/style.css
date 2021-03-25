@@ -46,6 +46,14 @@ Text Domain:  accelerate-theme-child
 	text-transform: uppercase;
 }
 
+/* Featured work section front page */
+
+
+li.individual-featured-work {
+	float: left;
+}
+
+
 
 /*    Case study custom post styles  */
 
@@ -58,6 +66,8 @@ div.case-study-images {
 	float: left;
 	width: 606px;
 }
+
+
 
 
 
