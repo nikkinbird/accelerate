@@ -47,12 +47,27 @@ Text Domain:  accelerate-theme-child
 }
 
 /* Featured work section front page */
-
-
-li.individual-featured-work {
-	float: left;
+ul.homepage-featured-work {
+	display: inline;
 }
 
+li.individual-featured-work {
+	display: inline;
+	float: left;
+	padding: 5px;
+}
+
+.featured-work h3 {
+	text-align: center;
+	font-weight: normal;
+	margin-top: 10px;
+}
+
+.featured-work h4 {
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 40px;
+}
 
 
 /*    Case study custom post styles  */
