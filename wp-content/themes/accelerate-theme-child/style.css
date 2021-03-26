@@ -80,10 +80,13 @@ aside.case-study-sidebar {
 div.case-study-images {
 	float: left;
 	width: 606px;
+	margin-left: 15%;
+	margin-bottom: 10%;
 }
 
-
-
+.case-study-wrapper {
+	width: 100%;
+}
 
 
 

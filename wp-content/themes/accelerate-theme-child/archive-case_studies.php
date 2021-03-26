@@ -20,7 +20,7 @@ get_header(); ?>
 	$size = "full"; ?>
 
 <article class="case-study">
-	<div class="site-content">
+	<div class="site-content case-study-wrapper">
 		<aside class="case-study-sidebar">
 			<h2><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 			<h5><?php echo $services; ?></h5>
