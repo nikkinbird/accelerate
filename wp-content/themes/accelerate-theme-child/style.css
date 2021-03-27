@@ -105,7 +105,11 @@ div.case-study-images {
 .social-media-menu li {
 	display: inline-block;
 	float: left;
-	margin: .25em;
+	/* margin: .25em; */
+}
+
+.screen-reader-text {
+	display: none;
 }
 
 
