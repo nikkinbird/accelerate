@@ -100,6 +100,14 @@ div.case-study-images {
 	width: 100%;
 }
 
+/*  Social Media Menu Footer Styles */
+
+.social-media-menu li {
+	display: inline-block;
+	float: left;
+	margin: .25em;
+}
+
 
 
 
