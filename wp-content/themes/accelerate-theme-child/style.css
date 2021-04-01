@@ -115,13 +115,20 @@ div.case-study-images {
 
 /*  Contact Us page styles  */
 
-/*  #nf-field-1-container,
-#nf-field-2-container {
-	width: 45%;
-	display: inline;
-	float: left;
-}  */
+.nf-field-label {
+	font-weight: lighter;
 
+}
+
+#nf-field-4 {
+	float: right;
+	background-color: #45ac9d;
+}
+
+#form-wrapper {
+	width: 70%;
+	margin: auto;
+}
 
 
 
