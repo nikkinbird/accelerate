@@ -133,17 +133,17 @@ div.case-study-images {
 
 /*  About Page Template Styles  */
 
-.about_page {
-    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+.about_header_wrapper {
+	background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
-.about_content {
+.about_header {
 	width: 50%;
 	margin: auto;
 	padding-bottom: 3%;
 }
 
-.about_content p{
+.about_header p{
 	color: white;
 	text-align: center;
 }
