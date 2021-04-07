@@ -140,11 +140,29 @@ div.case-study-images {
 .about_header {
 	width: 50%;
 	margin: auto;
-	padding-bottom: 3%;
 }
 
-.about_header p{
+.about_header p {
 	color: white;
 	text-align: center;
+	margin: 0 auto;
+	padding-top: 2em;
+	padding-bottom: 3em;
 }
+
+.overview {
+	width: 40%;
+	margin: auto;
+}
+
+.overview h4, p {
+	text-align: center;
+}
+
+.overview h4 {
+	text-transform: uppercase;
+	padding-top: 2em;
+}
+
+
 

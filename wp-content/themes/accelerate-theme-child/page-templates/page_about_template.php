@@ -8,7 +8,7 @@
 get_header(); ?>
 
 	<div id="primary" class="about_page hero-content">
-		<div class="main-content about_content" role="main">
+		<div class="about_content" role="about">
 			<?php while ( have_posts() ) : the_post();
 					$overview_title = get_field('overview_title');
 					$overview_text = get_field('overview_text'); ?>
@@ -20,7 +20,7 @@ get_header(); ?>
 			</div>
 
 				<div class="overview">
-					<h2><?php echo $overview_title; ?></h2>
+					<h4><?php echo $overview_title; ?></h4>
 					<p><?php echo $overview_text; ?></p>
 				</div>
 
