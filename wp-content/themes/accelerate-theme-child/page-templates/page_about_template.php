@@ -15,6 +15,9 @@ get_header(); ?>
 					$image_1 = get_field('image_1');
 					$title_1 = get_field('service_title_1');
 					$desc_1 = get_field('service_desc_1');
+					$image_2 = get_field('image_2');
+					$title_2 = get_field('service_title_2');
+					$desc_2 = get_field('service_desc_2');
 					$size = 'full';
 
 					?>
@@ -37,6 +40,14 @@ get_header(); ?>
 					} ?>
 					<h4><?php echo $title_1; ?></h4>
 					<p><?php echo $desc_1; ?></p>
+				</div>
+
+				<div class="service-2">
+					<?php if($image_2) {
+						echo wp_get_attachment_image( $image_2, $size );
+					} ?>
+					<h4><?php echo $title_2; ?></h4>
+					<p><?php echo $desc_2; ?></p>
 				</div>
 
 			</div>
