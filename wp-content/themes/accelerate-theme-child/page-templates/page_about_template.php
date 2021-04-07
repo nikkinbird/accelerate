@@ -11,7 +11,13 @@ get_header(); ?>
 		<div class="about_content" role="about">
 			<?php while ( have_posts() ) : the_post();
 					$overview_title = get_field('overview_title');
-					$overview_text = get_field('overview_text'); ?>
+					$overview_text = get_field('overview_text'); 
+					$image_1 = get_field('image_1');
+					$title_1 = get_field('service_title_1');
+					$desc_1 = get_field('service_desc_1');
+					$size = 'full';
+
+					?>
 
 			 <div class="about_header_wrapper">
 			 	<div class="about_header">
@@ -23,6 +29,17 @@ get_header(); ?>
 					<h4><?php echo $overview_title; ?></h4>
 					<p><?php echo $overview_text; ?></p>
 				</div>
+
+			<div class="services">
+				<div class="service-1">
+					<?php if($image_1) {
+						echo wp_get_attachment_image( $image_1, $size );
+					} ?>
+					<h4><?php echo $title_1; ?></h4>
+					<p><?php echo $desc_1; ?></p>
+				</div>
+
+			</div>
 
 			<?php endwhile; // end of the loop. ?>
 		</div> <!-- .main-content -->
