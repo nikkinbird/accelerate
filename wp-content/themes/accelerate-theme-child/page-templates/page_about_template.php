@@ -40,7 +40,7 @@ get_header(); ?>
 				</div>
 
 			<div class="services">
-				<div class="service-1">
+				<div class="service" id="service-1">
 					<?php if($image_1) {
 						echo wp_get_attachment_image( $image_1, $size );
 					} ?>
@@ -48,7 +48,7 @@ get_header(); ?>
 					<p><?php echo $desc_1; ?></p>
 				</div>
 
-				<div class="service-2">
+				<div class="service" id="service-2">
 					<?php if($image_2) {
 						echo wp_get_attachment_image( $image_2, $size );
 					} ?>
@@ -56,7 +56,7 @@ get_header(); ?>
 					<p><?php echo $desc_2; ?></p>
 				</div>
 
-				<div class="service-3">
+				<div class="service" id="service-3">
 					<?php if($image_3) {
 						echo wp_get_attachment_image( $image_3, $size );
 					} ?>
@@ -64,7 +64,7 @@ get_header(); ?>
 					<p><?php echo $desc_3; ?></p>
 				</div>
 
-				<div class="service-4">
+				<div class="service" id="service-4">
 					<?php if($image_4) {
 						echo wp_get_attachment_image( $image_4, $size );
 					} ?>
@@ -72,7 +72,7 @@ get_header(); ?>
 					<p><?php echo $desc_4; ?></p>
 				</div>
 
-			</div>
+			</div>  <!-- .services  -->
 
 			<?php endwhile; // end of the loop. ?>
 		</div> <!-- .main-content -->
