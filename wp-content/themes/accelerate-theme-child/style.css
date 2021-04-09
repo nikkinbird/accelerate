@@ -155,7 +155,7 @@ div.case-study-images {
 	margin: auto;
 }
 
-.overview h4, p {
+.overview h4, .overview p {
 	text-align: center;
 }
 
@@ -169,15 +169,41 @@ div.case-study-images {
 	margin: auto;
 }
 
-.service img {
-	display: inline;
+.service {
+	display: hidden;
+}
+
+.service-image-left, .service-text-left {
+	float: left;
+}
+
+.service-image-right, .service-text-right {
+	float: right;
+}
+
+.service-image-left, .service-image-right {
+	width: 30%;
+}
+
+.service-text-left, .service-text-right {
+	width: 60%;
+}
+
+
+
+/**  .service img {
+	display: inline-block;
+}
+
+.service {
+	overflow: hidden;
 }
 
 #service-1 img, #service-3 img {
 	float: left;
 }
 
-#service-1, #service-3 {
+.service-text-left {
 	float: left;
 }
 
@@ -185,9 +211,9 @@ div.case-study-images {
 	float: right;
 }
 
-#service-2, #service-4 {
-	float: right;
-}
+.service-text-right {
+
+}   **/
 
 
 

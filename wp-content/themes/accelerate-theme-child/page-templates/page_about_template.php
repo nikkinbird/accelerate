@@ -41,35 +41,51 @@ get_header(); ?>
 
 			<div class="services-wrapper">
 				<div class="service" id="service-1">
-					<?php if($image_1) {
-						echo wp_get_attachment_image( $image_1, $size );
-					} ?>
-					<h4><?php echo $title_1; ?></h4>
-					<p><?php echo $desc_1; ?></p>
+					<div class="service-image-left">
+						<?php if($image_1) {
+							echo wp_get_attachment_image( $image_1, $size );
+						} ?>
+					</div>
+					<div class="service-text-left">
+						<h4><?php echo $title_1; ?></h4>
+						<p><?php echo $desc_1; ?></p>
+					</div>
 				</div>
 
 				<div class="service" id="service-2">
-					<?php if($image_2) {
-						echo wp_get_attachment_image( $image_2, $size );
-					} ?>
-					<h4><?php echo $title_2; ?></h4>
-					<p><?php echo $desc_2; ?></p>
+					<div class="service-image-right">
+						<?php if($image_2) {
+							echo wp_get_attachment_image( $image_2, $size );
+						} ?>
+					</div>
+					<div class="service-text-right">
+						<h4><?php echo $title_2; ?></h4>
+						<p><?php echo $desc_2; ?></p>
+					</div>
 				</div>
 
 				<div class="service" id="service-3">
-					<?php if($image_3) {
-						echo wp_get_attachment_image( $image_3, $size );
-					} ?>
-					<h4><?php echo $title_3; ?></h4>
-					<p><?php echo $desc_3; ?></p>
+					<div class="service-image-left">
+						<?php if($image_3) {
+							echo wp_get_attachment_image( $image_3, $size );
+						} ?>
+					</div>
+					<div class="service-text-left">
+						<h4><?php echo $title_3; ?></h4>
+						<p><?php echo $desc_3; ?></p>
+					</div>
 				</div>
 
 				<div class="service" id="service-4">
-					<?php if($image_4) {
-						echo wp_get_attachment_image( $image_4, $size );
-					} ?>
-					<h4><?php echo $title_4; ?></h4>
-					<p><?php echo $desc_4; ?></p>
+					<div class="service-image-right">
+						<?php if($image_4) {
+							echo wp_get_attachment_image( $image_4, $size );
+						} ?>
+					</div>
+					<div class="service-text-right">
+						<h4><?php echo $title_4; ?></h4>
+						<p><?php echo $desc_4; ?></p>
+					</div>
 				</div>
 
 			</div>  <!-- .services  -->
