@@ -18,6 +18,12 @@ get_header(); ?>
 					$image_2 = get_field('image_2');
 					$title_2 = get_field('service_title_2');
 					$desc_2 = get_field('service_desc_2');
+					$image_3 = get_field('image_3');
+					$title_3 = get_field('service_title_3');
+					$desc_3 = get_field('service_desc_3');
+					$image_4 = get_field('image_4');
+					$title_4 = get_field('service_title_4');
+					$desc_4 = get_field('service_desc_4');
 					$size = 'full';
 
 					?>
@@ -48,6 +54,22 @@ get_header(); ?>
 					} ?>
 					<h4><?php echo $title_2; ?></h4>
 					<p><?php echo $desc_2; ?></p>
+				</div>
+
+				<div class="service-3">
+					<?php if($image_3) {
+						echo wp_get_attachment_image( $image_3, $size );
+					} ?>
+					<h4><?php echo $title_3; ?></h4>
+					<p><?php echo $desc_3; ?></p>
+				</div>
+
+				<div class="service-4">
+					<?php if($image_4) {
+						echo wp_get_attachment_image( $image_4, $size );
+					} ?>
+					<h4><?php echo $title_4; ?></h4>
+					<p><?php echo $desc_4; ?></p>
 				</div>
 
 			</div>
