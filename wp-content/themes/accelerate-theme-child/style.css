@@ -164,10 +164,31 @@ div.case-study-images {
 	padding-top: 2em;
 }
 
-.services {
+.services-wrapper {
 	width: 75%;
 	margin: auto;
 }
+
+.service img {
+	display: inline;
+}
+
+#service-1 img, #service-3 img {
+	float: left;
+}
+
+#service-1, #service-3 {
+	float: left;
+}
+
+#service-2 img, #service-4 img {
+	float: right;
+}
+
+#service-2, #service-4 {
+	float: right;
+}
+
 
 
 

@@ -39,7 +39,7 @@ get_header(); ?>
 					<p><?php echo $overview_text; ?></p>
 				</div>
 
-			<div class="services">
+			<div class="services-wrapper">
 				<div class="service" id="service-1">
 					<?php if($image_1) {
 						echo wp_get_attachment_image( $image_1, $size );
