@@ -41,48 +41,48 @@ get_header(); ?>
 
 			<div class="services-wrapper">
 				<div class="service" id="service-1">
-					<div class="service-image-left">
+					<div class="service-image">
 						<?php if($image_1) {
 							echo wp_get_attachment_image( $image_1, $size );
 						} ?>
 					</div>
-					<div class="service-text-left">
+					<div class="service-text">
 						<h4><?php echo $title_1; ?></h4>
 						<p><?php echo $desc_1; ?></p>
 					</div>
 				</div>
 
-				<div class="service" id="service-2">
-					<div class="service-image-right">
+				<div class="service image-right" id="service-2">
+					<div class="service-image">
 						<?php if($image_2) {
 							echo wp_get_attachment_image( $image_2, $size );
 						} ?>
 					</div>
-					<div class="service-text-right">
+					<div class="service-text">
 						<h4><?php echo $title_2; ?></h4>
 						<p><?php echo $desc_2; ?></p>
 					</div>
 				</div>
 
 				<div class="service" id="service-3">
-					<div class="service-image-left">
+					<div class="service-image">
 						<?php if($image_3) {
 							echo wp_get_attachment_image( $image_3, $size );
 						} ?>
 					</div>
-					<div class="service-text-left">
+					<div class="service-text">
 						<h4><?php echo $title_3; ?></h4>
 						<p><?php echo $desc_3; ?></p>
 					</div>
 				</div>
 
-				<div class="service" id="service-4">
-					<div class="service-image-right">
+				<div class="service image-right" id="service-4">
+					<div class="service-image">
 						<?php if($image_4) {
 							echo wp_get_attachment_image( $image_4, $size );
 						} ?>
 					</div>
-					<div class="service-text-right">
+					<div class="service-text">
 						<h4><?php echo $title_4; ?></h4>
 						<p><?php echo $desc_4; ?></p>
 					</div>
