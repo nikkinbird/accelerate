@@ -227,5 +227,19 @@ div.case-study-images {
 }
 
 
+/** 404 page styles  **/
+.content-wrapper-404 {
+	width: 60%;
+	margin: auto;
+}
 
+.content-wrapper-404 h1, .content-wrapper-404 p {
+	text-align: center;
+}
+
+.content-wrapper-404 img {
+	width: 50%;
+	display: block;
+	margin: auto;
+}
 
