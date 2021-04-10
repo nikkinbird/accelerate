@@ -24,6 +24,7 @@ get_header(); ?>
 					$image_4 = get_field('image_4');
 					$title_4 = get_field('service_title_4');
 					$desc_4 = get_field('service_desc_4');
+					$calltoaction = get_field('call_to_action');
 					$size = 'full';
 
 					?>
@@ -89,6 +90,10 @@ get_header(); ?>
 				</div>
 
 			</div>  <!-- .services  -->
+
+			<div class="call-to-action">
+				<h2><?php echo $calltoaction; ?></h2>
+			</div>
 
 			<?php endwhile; // end of the loop. ?>
 		</div> <!-- .main-content -->
