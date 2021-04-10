@@ -92,7 +92,12 @@ get_header(); ?>
 			</div>  <!-- .services  -->
 
 			<div class="call-to-action">
-				<h2><?php echo $calltoaction; ?></h2>
+				<div id="cta_text">
+					<h2><?php echo $calltoaction; ?></h2>
+				</div>
+				<div id="button">
+					<p>Contact Us</p>
+				</div>
 			</div>
 
 			<?php endwhile; // end of the loop. ?>

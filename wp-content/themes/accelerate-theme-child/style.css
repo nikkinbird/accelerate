@@ -190,6 +190,42 @@ div.case-study-images {
 }
 
 
+/** Call to Action section styles  **/
+
+.call-to-action {
+	border-top: 1px solid #bfbfbf;
+	width: 75%;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 2em;
+	margin-top: 6em;
+}
+
+#button {
+	background: #45ac9d;
+	width: 12em;
+	height: 3em;
+	display: flex;
+	align-items: center;
+}
+
+#button p {
+	text-align: center;
+	color: white;
+	font-weight: 600;
+}
+
+#cta_text h2 {
+	margin: 0;
+	padding: 0;
+}
+
+#cta_text {
+	padding-right: 3em;
+}
+
 
 
 
