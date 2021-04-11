@@ -3,7 +3,7 @@ Contributors: wpninjasllc, kstover, jameslaws, kbjohnson90, klhall1987, krmoorho
 Tags: forms, contact form, email form, form builder, custom form, pdf form, registration form, payment form, login form, contact me, signature form, upload form, file upload form, conditional form, feedback form, appointment form, quote form, survey form, contact button, signup form, form plugin, contact form plugin, subscription form, email subscription form, newsletter form, donation form, booking form, quote request form, multi page form, conditional logic form, subscription form, application form, employment verification form, star rating form, rating form, event form, mailchimp form, campaign monitor form, constant contact form, mailpoet form, aweber form, cleverreach form, emma form, convertkit form, active campaign form, salesforce form, zoho form, capsule form, insightly form, pipelinedeals form, onepagecrm form
 Requires at least: 5.4
 Tested up to: 5.6
-Stable tag: 3.5.2
+Stable tag: 3.5.3
 License: GPLv2 or later
 
 The 100% beginner friendly WordPress form builder. Drag & drop form fields to build beautiful, professional contact forms in minutes.
@@ -303,22 +303,19 @@ This section describes how to install the plugin and get it working.
 
 == Upgrade Notice ==
 
-= 3.5.2 (24 March 2021) =
+= 3.5.3 (1 April 2021) =
 
 *Changes:*
 
-* Removed some legacy settings that were no longer required for new installs.
-
-*Bugs:*
-
-* Resolved an issue that was causing errors when Array values were used in API requests.
-* The Ninja Forms block should now fill the entire width of the block editor.
-* Fixed an error that was causing a depreciated method warning when using the classic editor.
-* Forms should now display again in Internet Explorer 11.
-* Resolved an issue that was causing the Ninja Forms dashboard to crash if there was an issue with wp_cron.
-* Fixed some PHP warnings related to our checkbox list field.
+* Final deprecation phase of Ninja Forms 2.9x codebase.
 
 == Changelog ==
+
+= 3.5.3 (1 April 2021) =
+
+*Changes:*
+
+* Final deprecation phase of Ninja Forms 2.9x codebase.
 
 = 3.5.2 (24 March 2021) =
 

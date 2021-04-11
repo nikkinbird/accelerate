@@ -22,13 +22,18 @@ Text Domain:  accelerate-theme-child
 	background: #45ac9d;
 }
 
+
+.recent-posts {
+	overflow: hidden;
+}
+
 .blog-post {
 	width: 50%;
 	float: left;
 	margin-bottom: 2em;
 }
 
-.blog-post h4 {
+.blog-post h4, .social-feed h4 {
     font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
     color: #a6a6a6;
     text-transform: uppercase;
@@ -47,6 +52,11 @@ Text Domain:  accelerate-theme-child
 }
 
 /* Featured work section front page */
+
+.featured-work {
+	overflow: hidden;
+}
+
 ul.homepage-featured-work {
 	display: inline;
 }
@@ -255,5 +265,13 @@ div.case-study-images {
 
 #photo-credit {
 	font-size: .75em;
+}
+
+
+/** Social feed sidebar on front page **/
+
+.social-feed {
+	width: 50%;
+	float: left;
 }
 

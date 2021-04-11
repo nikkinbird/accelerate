@@ -59,7 +59,19 @@ get_header(); ?>
      				<?php endwhile; ?> 
     			<?php wp_reset_query(); ?>
  			</div><!-- .blog-post -->
+
+ 			<div class="social-feed">
+ 				<h4>Recent Tweet</h4>
+ 				<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+					<div id="secondary" class="widget-area" role="complementary">
+						<?php dynamic_sidebar( 'sidebar-2' ); ?>
+					</div>
+				<?php endif; ?>
+			</div> <!-- .social-feed -->
+
  		</div><!-- .site-content -->
 	</section><!-- .recent-posts -->
+
+
 
 <?php get_footer(); ?>
