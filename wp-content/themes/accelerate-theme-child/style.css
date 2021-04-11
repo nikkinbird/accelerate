@@ -286,3 +286,9 @@ div.case-study-images {
 .social-feed a {
 	color: #45ac9d;
 }
+
+/**  Blog sidebar styles **/
+
+#convertkit_form-2 {
+	border-bottom: 1px solid #bfbfbf;
+}
