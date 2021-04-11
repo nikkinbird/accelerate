@@ -67,6 +67,7 @@ get_header(); ?>
 						<?php dynamic_sidebar( 'sidebar-2' ); ?>
 					</div>
 				<?php endif; ?>
+				<h4><a href="http://www.twitter.com/nikkinbird">Follow Us ›</a></h4>
 			</div> <!-- .social-feed -->
 
  		</div><!-- .site-content -->

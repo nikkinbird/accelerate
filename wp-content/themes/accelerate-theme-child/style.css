@@ -275,3 +275,14 @@ div.case-study-images {
 	float: left;
 }
 
+.social-feed {
+	padding-left: 4em;
+}
+
+.blog-post {
+	padding-right: 4em;
+}
+
+.social-feed a {
+	color: #45ac9d;
+}
