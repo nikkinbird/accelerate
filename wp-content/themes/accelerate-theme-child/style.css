@@ -234,6 +234,11 @@ div.case-study-images {
 	text-align: center;
 }
 
+.content-wrapper-404 h1 {
+	font-family: 'Ribeye Marrow', cursive;
+	font-size: 2em;
+}
+
 .content-wrapper-404 h4 {
 	margin-bottom: 2em;
 }
