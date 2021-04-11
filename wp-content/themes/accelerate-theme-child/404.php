@@ -15,8 +15,9 @@ get_header(); ?>
 		<div class="content-wrapper-404">
 			<h1>Oops! This page doesn't exist!</h1>
 			<p>...but here's a cute baby bunny to look at before you go!</p>
+			<h4><a href="http://localhost:8888/accelerate">Back to Homepage</a></h4>
 			<img src="wp-content/themes/accelerate-theme-child/img/bunny.jpg">
-			<p>Photo by <a href="https://unsplash.com/@gcasales?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Guillermo Casales</a> on <a href="https://unsplash.com/s/photos/baby-bunny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+			<p id="photo-credit">Photo by <a href="https://unsplash.com/@gcasales?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Guillermo Casales</a> on <a href="https://unsplash.com/s/photos/baby-bunny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
 		</div>
 
 	</div><!-- .main-404 -->

@@ -231,15 +231,24 @@ div.case-study-images {
 .content-wrapper-404 {
 	width: 60%;
 	margin: auto;
+	text-align: center;
 }
 
-.content-wrapper-404 h1, .content-wrapper-404 p {
-	text-align: center;
+.content-wrapper-404 h4 {
+	margin-bottom: 2em;
+}
+
+.content-wrapper-404 a {
+	color: #45ac9d;
 }
 
 .content-wrapper-404 img {
 	width: 50%;
 	display: block;
 	margin: auto;
+}
+
+#photo-credit {
+	font-size: .75em;
 }
 
